@@ -9,7 +9,7 @@
             {
                 if (str[i] == target)
                 {
-                    result = str.Substring(i);
+                    result = str.Substring(i+1);
                     break;
                 }
             }
